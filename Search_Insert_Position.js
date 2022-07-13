@@ -13,6 +13,7 @@ let searchInsert = function(nums, target) {
     let lowestToHighest = nums.sort((a, b) => a - b);
     return lowestToHighest.indexOf(target);
   }
+    
 };
 
 // test case
