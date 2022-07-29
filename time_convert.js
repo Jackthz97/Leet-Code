@@ -26,5 +26,4 @@ const convertTime = (stringTime) => {
 
   return convert;
 };
-
 console.log(convertTime(["12:15PM-02:00PM", "09:00AM-10:00AM", "10:30AM-12:00PM"]));
